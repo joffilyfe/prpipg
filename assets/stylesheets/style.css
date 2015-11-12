@@ -116,6 +116,7 @@ body {
   color: #014b5f;
   border-radius: 5px;
   color: #fff;
+  background: #fff;
 }
 
 .event-card .info {
@@ -123,8 +124,35 @@ body {
   justify-content: center;
   align-items: center;
   height: 200px;
+  width: 100%;
 }
 
+.wiiep {
+  background: url('../images/wiiep.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.simpif {
+  background: url('../images/simpif.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sintif {
+  background: url('../images/sintif.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.ead {
+  background: url('../images/ead.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 /* Speakers
 ======================*/
 .speakers-container {

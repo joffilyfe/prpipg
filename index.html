@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Encontro Internacional de Educação Profissional</title>
+  <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/stylesheets/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- <div class="containera"> -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Menu</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="">
+              <a href="#home">Home</a>
+            </li>
+            <li><a href="#events">Eventos</a></li>
+            <li><a href="#speakers">Palestrantes</a></li>
+            <li><a href="#location">Localização</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> <!-- end of navbar -->
+  </div>
+
+  <!-- Welcome board -->
+  <div id="home" class="welcome-container">
+    <div class="bg-layer">
+      <div class="container">
+        <p class="text-center">
+          <img src="assets/images/destaque.png" class="img-responsive img-event">
+        </p>
+        <!-- <h1 class="welcome-message text-center">Encontro Internacional de Educação Profissional</h1> -->
+        <h2 class="text-center">
+          De 9 a 11 de dezembro - IFPB
+        </h2>
+        <!-- <a href="http://eventos.ifpb.edu.br" class="button-register">Acesse</a> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Events Board -->
+  <div id="events" class="events-container">
+    <div class="container">
+      <div class="row">
+        <h2 class="events-message text-center">Eventos</h2>
+        <div class="col-md-6">
+          <a class="event-link" href="#">
+            <div class="event-card">
+              <div class="info">
+                <h2>Workshop Internacional de Inovação na Educação Profissional</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6">
+          <a class="event-link" href="#">
+            <div class="event-card">
+              <div class="info">
+                <h2>I Simpósio de Pesquisa, Pós-Graduação e Inovação do IFPB</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a class="event-link" href="#">
+            <div class="event-card">
+              <div class="info">
+                <h2>III Seminário de Inovação Tecnológica do IFPB</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-6">
+          <a class="event-link" href="#">
+            <div class="event-card">
+              <div class="info">
+                <h2>I Encontro de Educação a Distância do IFPB</h2>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Speakers Board -->
+  <div id="speakers" class="speakers-container">
+    <div class="container">
+      <h2 class="speakers-message text-center">Palestrantes</h2>
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate qui pariatur tempore, autem, quod quis tenetur fugiat vel adipisci. Minus, deleniti, architecto! Incidunt culpa nostrum dicta numquam, in voluptate possimus.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate qui pariatur tempore, autem, quod quis tenetur fugiat vel adipisci. Minus, deleniti, architecto! Incidunt culpa nostrum dicta numquam, in voluptate possimus.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate qui pariatur tempore, autem, quod quis tenetur fugiat vel adipisci. Minus, deleniti, architecto! Incidunt culpa nostrum dicta numquam, in voluptate possimus.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate qui pariatur tempore, autem, quod quis tenetur fugiat vel adipisci. Minus, deleniti, architecto! Incidunt culpa nostrum dicta numquam, in voluptate possimus.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate qui pariatur tempore, autem, quod quis tenetur fugiat vel adipisci. Minus, deleniti, architecto! Incidunt culpa nostrum dicta numquam, in voluptate possimus.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate qui pariatur tempore, autem, quod quis tenetur fugiat vel adipisci. Minus, deleniti, architecto! Incidunt culpa nostrum dicta numquam, in voluptate possimus.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Location Board -->
+  <div id="location" class="location-container">
+    <div class="container">
+      <h2 class="location-message text-center">Localização</h2>
+      <div class="location-map">
+        <p>Tribunal de contas - Rua Professor Geraldo Von Sohsten, 147, Jaguaribe,João Pessoa - Praíba</p>
+        <p>IFPB - 720 Av. Primeiro de Maio, Jaguaribe, João Pessoa - Paraíba</p>
+        <div id="map-canvas"></div>
+      </div>
+    </div>
+  <!-- </div> -->
+  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
